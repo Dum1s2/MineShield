@@ -1,6 +1,12 @@
 # Секреты и конфиги (НИКОГДА не коммитить)
 .env
 .env.*
+!.env.example
+
+# Python / pytest кэш
+__pycache__/
+*.py[cod]
+.pytest_cache/
 
 # Виртуальное окружение uv / venv
 .venv/
